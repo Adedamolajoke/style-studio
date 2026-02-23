@@ -109,7 +109,7 @@ export default function StyleStudio() {
                     <div style={{ width: 32, height: 32, borderRadius: 8, backgroundColor: p.colors.primary }} />
                     <span style={{ fontWeight: 600 }}>{p.name}</span>
                   </div>
-                  <p style={{ margin: 0, opacity: 0.6, fontSize: 13 }}>{p.description}</p>
+                  <p style={{ margin: 0, opacity: 0.6, fontSize: 13 }}>{p.name}</p>
                   <div style={{ display: "flex", gap: 6, marginTop: 12 }}>
                     {Object.values(p.colors).slice(0, 4).map((c, i) => (
                       <div key={i} style={{ width: 24, height: 24, borderRadius: "50%", backgroundColor: c }} />
